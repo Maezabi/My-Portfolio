@@ -1,0 +1,149 @@
+body { 
+    font-family: Arial, sans-serif; 
+    line-height: 1.6;
+    background-image: url(images/background.jpg);
+} 
+ 
+header { 
+    background: #333; 
+    color: white; 
+    padding: 1rem; 
+} 
+ 
+nav { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+} 
+ 
+.logo { 
+    width: 50px; 
+    height: auto;
+    border-radius: 50%;
+
+} 
+ 
+nav ul { 
+    list-style: none; 
+    display: flex; 
+    gap: 1rem; 
+} 
+ 
+nav a { 
+    color: white; 
+    text-decoration: none; 
+} 
+ 
+.hero, .about, .contact { 
+    padding: 2rem; 
+    text-align: center; 
+} 
+ 
+.profile-img, .about-img { 
+    max-width: 200px; 
+    border-radius: 50%; 
+    margin-top: 1rem; 
+} 
+
+footer{
+    text-align: center;
+}
+div.container{
+    text-align: center;
+}
+ul.myul {
+    display: inline-block;
+    text-align: left;
+}
+.submit-btn{
+    padding: 12px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.contact-form { 
+    display: flex; 
+    flex-direction: column; 
+    gap: 20px; 
+    background-color: #f9f9f9; 
+    padding: 30px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+} 
+ 
+.form-group { 
+    display: flex; 
+    flex-direction: column; 
+    text-align: left; 
+} 
+ 
+.form-group label { 
+    font-size: 1rem; 
+    margin-bottom: 8px; 
+    color: #2c3e50; 
+} 
+ 
+.form-group input, 
+.form-group textarea { 
+    padding: 12px; 
+    font-size: 1rem; 
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    outline: none; 
+    transition: border-color 0.3s; 
+} 
+ 
+.form-group input:focus, 
+.form-group textarea:focus { 
+    border-color: #3498db; 
+} 
+ 
+.form-group textarea { 
+    resize: vertical; 
+}
+.submit-btn:hover{
+    background-color: black;
+}
+/* Social Links */ 
+.social-links { 
+    margin-top: 30px; 
+} 
+ 
+.social-links h3 { 
+    font-size: 1.5rem; 
+    margin-bottom: 15px; 
+    color: #2c3e50; 
+} 
+ 
+.social-icons { 
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+} 
+ 
+.social-icons a { 
+    font-size: 1.8rem; 
+    color: #2c3e50; 
+    transition: color 0.3s; 
+} 
+ 
+.social-icons a:hover { 
+    color: #3498db; 
+} 
+.cta-btn{
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 20px;
+}
+.cta-btn:hover {
+    background-color: black;
+}
